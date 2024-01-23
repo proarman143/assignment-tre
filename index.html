@@ -2,329 +2,347 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assingment-3</title>
-    <!-- Daisy Ui cdn Link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- font awesome kits link -->
-    <script src="https://kit.fontawesome.com/e9bd0cdc62.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assingment-3</title>
+  <!-- Daisy Ui cdn Link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome kits link -->
+  <script src="https://kit.fontawesome.com/e9bd0cdc62.js" crossorigin="anonymous"></script>
 
-    <!-- google font link -->
+  <!-- google font link -->
 
 </head>
 
 <body>
-    <header class="container mx-auto">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
-                    </ul>
-                </div>
-                <a class="btn btn-ghost text-2xl text-[#131318]">Hockey<span style="color: red;">’</span>s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-l text-[#424247] text-xs">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <div class="flex gap-2 justify-center items-center">
-                    <i class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:flex"></i>
-                    <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
-                </div>
-            </div>
+  <header class="container mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
         </div>
-    </header>
+        <a class="btn btn-ghost text-2xl text-[#131318]">Hockey<span style="color: red;">’</span>s</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-l text-[#424247] text-xs">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
 
-    <main>
-        <!-- carousal section start -->
-        <section class="container mx-auto">
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="flex gap-2 justify-center items-center">
+          <i class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:flex"></i>
+          <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <!-- Professional Hockeys Club -->
-        <section class="container mx-auto">
-            <div class="justify-around">
-                <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
-                <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
-                <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
-                <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
-            </div>
-        </section>
+  <main>
+    <!-- carousal section start -->
+    <section class="container mx-auto">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Program Sections -->
-        <section class="container mx-auto" >
-            <!-- section titile -->
-            <div class="" >
-                <h1 class="font-bold text-3xl text-center" >Program Sections</h1>
-                <p class="text-center text-xl" >Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
-            </div>
+    <!-- Professional Hockeys Club -->
+    <section class="container mx-auto">
+      <div class="flex gap-10 items-center justify-center" >
+        <div>
+          <div class="radial-progress text-red-700" style="--value:87;" role="progressbar">87%</div>
+          <h1>Prayer Facility</h1>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
+          <h1>Experienced Coach</h1>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
+          <h1>Senior Player</h1>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+          <h1>Training Ground</h1>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+      </div>
+    </section>
 
-            <!-- 2 section img -->
-            <div class="flex justify-center gap-10" >
-                <div>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src="Images/2.png" alt="Shoes" /></figure>
-                        <div class="card-body">
-                          <h2 class="card-title">Junior Program</h2>
-                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                          <div class="card-actions">
-                            <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
-                        <figure><img src="Images/3.png" alt="Shoes" /></figure>
-                        <div class="card-body">
-                          <h2 class="card-title">Teenager Program</h2>
-                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                          <div class="card-actions">
-                            <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Program Sections -->
+    <section class="container mx-auto">
+      <!-- section titile -->
+      <div class="">
+        <h1 class="font-bold text-3xl text-center mb-6">Program Sections</h1>
+        <p class="text-center text-xs mb-10">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+          placerat <br> dolor. Purus urna in sit nullam proin. </p>
+      </div>
 
-            <!-- img 1 titile -->
-            <div class=" mt-10" >
-                <div class="card bg-base-100 shadow-xl image-full">
-                    <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                      <h2 class="card-title">Professional Program</h2>
-                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary bg-[#FF4240]">Register Now!</button>
-                      </div>
-                    </div>
-                  </div>
+      <!-- 2 section img -->
+      <div class="flex justify-center gap-10 lg:flex-row flex-col">
+        <div>
+          <div class="card w-50% bg-base-100 shadow-xl image-full">
+            <figure><img class="w-full" src="Images/2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title lg:pt-36 pt-8">Junior Program</h2>
+              <p class="grow-0" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions">
+                <button class="btn btn-primary bg-[#FF4240] border-0">Register Now</button>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <div>
+          <div class="card w-50% bg-base-100 shadow-xl image-full">
+            <figure><img class="w-full" src="Images/3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title lg:pt-36 pt-8">Teenager Program</h2>
+              <p class="grow-0" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions">
+                <button class="btn btn-primary bg-[#FF4240] border-0">Register Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- Clients Question -->
-        <section class="container mx-auto flex gap-10 p-10" >
-            <div>
-                <img src="Images/11.png" alt="">
+      <!-- img 1 titile -->
+      <div class=" mt-10">
+        <div class="card bg-base-100 shadow-xl image-full">
+          <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title lg:pt-64">Professional Program</h2>
+            <p class="grow-0 lg:w-1/2" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary bg-[#FF4240] border-0">Register Now</button>
             </div>
-            <!-- FAQ SECTION -->
-            <div class="" >
-                <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" checked="checked" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>hello</p>
-                    </div>
-                  </div>
-                  <div class="collapse collapse-plus bg-base-200">
-                    <input type="radio" name="my-accordion-3" /> 
-                    <div class="collapse-title text-xl font-medium">
-                      Click to open this one and close others
-                    </div>
-                    <div class="collapse-content"> 
-                      <p>hello</p>
-                    </div>
-                  </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Get In Touch -->
-        <section class="container mx-auto">
-            <div class="items-center justify-center">
-                <h1>Get In Touch</h1>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna
-                    in sit nullam proin. </p>
-            </div>
-        <!-- card and input section -->
-            <div class="flex gap-10" >
-                <div class="card w-96 bg-base-100 shadow-xl gap-y-1.5 justify-center items-center">
-                    <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
-                        <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
-                        <p>Phone Number</p>
-                        <h2 class="card-title">Card title!</h2>
-                    </div>
-                    <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
-                        <img class="w-12 h-12" src="Images/group 1171275318.png" alt="">
-                        <p>Phone Number</p>
-                        <h2 class="card-title">Card title!</h2>
-                    </div>
-                    <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
-                        <img class="w-12 h-12" src="Images/group 1171275321.png" alt="">
-                        <p>Phone Number</p>
-                        <h2 class="card-title">Card title!</h2>
-                    </div>
-                </div>
-                <!-- input tag title -->
-                <div>
-                    <div class="flex gap-4" >
-                        <label class="form-control w-full max-w-xs">
-                            <div class="label">
-                              <span class="label-text">Your Name</span>
-                            </div>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                          </label>
-                        <label class="form-control w-full max-w-xs">
-                            <div class="label">
-                              <span class="label-text">Your Email</span>
-                            </div>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                          </label>
-                    </div>
-                    <div class="flex gap-4" >
-                        <label class="form-control w-full max-w-xs">
-                            <div class="label">
-                              <span class="label-text">Subject</span>
-                            </div>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                          </label>
-                        <label class="form-control w-full max-w-xs">
-                            <div class="label">
-                              <span class="label-text">Phone Numberspan>
-                            </div>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                          </label>
-                    </div>
-                    <div>
-                        <label class="form-control w-full max-w-xs">
-                            <div class="label">
-                              <span class="label-text w-48">Message</span>
-                            </div>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                          </label>
-                    </div>
-                </div>
-            </div>
+    <!-- Clients Question -->
+    <section class="container mx-auto flex gap-10 p-10">
+      <div>
+        <img src="Images/11.png" alt="">
+      </div>
+      <!-- FAQ SECTION -->
+      <div class="">
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
 
-                    
-        </section>
-    </main>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content">
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer class="container mx-auto">
-        <!-- foooter section -->
-        <footer class="footer p-20 bg-[#131318] text-base-content">
-            <aside>
-                <h1 class="text-[#FFF] text-2xl">Get In Touch</h1>
-                <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in
-                    sit nullam proin.</p>
-                <div class="flex gap-3 justify-center items-center">
-                    <i class="fa-regular fa-envelope text-[#FF4240]"></i>
-                    <h3>hockeys@support.com</h3>
-                </div>
-                <div class="flex gap-3 justify-center items-center">
-                    <i class="fa-solid fa-phone text-[#FF4240]"></i>
-                    <h3>(+62) 123-321-543</h3>
-                </div>
-            </aside>
-            <nav>
-                <header class="footer-title text-white">Company</header>
-                <a class="link link-hover text-[#FFF]">About us</a>
-                <a class="link link-hover">Leadership</a>
-                <a class="link link-hover">Careers</a>
-                <a class="link link-hover">News & Article</a>
-                <a class="link link-hover text-[#FFFFFF]">Legal Notice</a>
-            </nav>
-            <nav>
-                <header class="footer-title text-[#FFF]">Support</header>
-                <a class="link link-hover">Help Center</a>
-                <a class="link link-hover">FAQ</a>
-                <a class="link link-hover">Ticket Support</a>
-                <a class="link link-hover">Contact Us</a>
-            </nav>
-            <nav>
-                <header class="footer-title text-[#FFF]">Services</header>
-                <a class="link link-hover">Academy</a>
-                <a class="link link-hover">Group Lesson</a>
-                <a class="link link-hover">Private Lesson</a>
-                <a class="link link-hover">Hockeys for kids</a>
-                <a class="link link-hover">Hockeys for Adult</a>
-            </nav>
-        </footer>
+    <!-- Get In Touch -->
+    <section class="container mx-auto">
+      <div class="items-center justify-center">
+        <h1>Get In Touch</h1>
+        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna
+          in sit nullam proin.</p>
+      </div>
+      <!-- card and input section -->
+      <div class="flex gap-10">
+        <div class="card w-96 bg-base-100 shadow-xl gap-y-1.5 justify-center items-center">
+          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
+            <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
+            <p>Phone Number</p>
+            <h2 class="card-title">Card title!</h2>
+          </div>
+          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
+            <img class="w-12 h-12" src="Images/group 1171275318.png" alt="">
+            <p>Phone Number</p>
+            <h2 class="card-title">Card title!</h2>
+          </div>
+          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
+            <img class="w-12 h-12" src="Images/group 1171275321.png" alt="">
+            <p>Phone Number</p>
+            <h2 class="card-title">Card title!</h2>
+          </div>
+        </div>
+        <!-- input tag title -->
+        <div>
+          <div class="flex gap-4">
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Your Name</span>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </label>
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Your Email</span>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div class="flex gap-4">
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Subject</span>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </label>
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text">Phone Numberspan>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+          <div>
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text w-48">Message</span>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+
+  <footer class="container mx-auto">
+    <!-- foooter section -->
+    <footer class="footer p-20 bg-[#131318] text-base-content">
+      <aside>
+        <h1 class="text-[#FFF] text-2xl">Get In Touch</h1>
+        <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in
+          sit nullam proin.</p>
+        <div class="flex gap-3 justify-center items-center">
+          <i class="fa-regular fa-envelope text-[#FF4240]"></i>
+          <h3>hockeys@support.com</h3>
+        </div>
+        <div class="flex gap-3 justify-center items-center">
+          <i class="fa-solid fa-phone text-[#FF4240]"></i>
+          <h3>(+62) 123-321-543</h3>
+        </div>
+      </aside>
+      <nav>
+        <header class="footer-title text-white">Company</header>
+        <a class="link link-hover text-[#FFF]">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover text-[#FFFFFF]">Legal Notice</a>
+      </nav>
+      <nav>
+        <header class="footer-title text-[#FFF]">Support</header>
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav>
+        <header class="footer-title text-[#FFF]">Services</header>
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav>
     </footer>
+  </footer>
 
 </body>
 
