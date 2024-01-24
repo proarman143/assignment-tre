@@ -38,7 +38,7 @@
             <li><a>Item 3</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-2xl text-[#131318]">Hockey<span style="color:red;">’</span>s</a>
+        <a class="btn btn-ghost text-2xl text-[#131318] gap-0">Hockey<span style="color:red;">’</span>s</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-l text-[#424247] text-xs">
@@ -103,8 +103,8 @@
 
         <!-- card line one -->
         <div class="flex gap-6 lg:flex-row flex-col" >
-          <div class="card lg:card-side bg-base-100 w-6/12 p-3">
-            <figure><img src="Images/5.png" alt="Album"/></figure>
+          <div class="card lg:card-side bg-base-100 w-full lg:w-6/12 p-3">
+            <figure><img class="w-full" src="Images/5.png" alt="Album"/></figure>
             <div class="card-body">
               <div class="flex gap-3" >
                 <div class="flex gap-2" >
@@ -455,20 +455,20 @@
       </div>
       <!-- card and input section -->
       <div class="flex gap-10 lg:flex-row flex-col">
-        <div class="card gap-y-1.5 justify-center items-center w-2/4">
+        <div class="card gap-y-1.5 justify-center items-center w-full lg:w-2/4">
           <div class="card-body w-full p-10 h-72 bg-[#bced6d1a] rounded-2xl">
             <img class=" w-12 h-12" src="Images/Group 1171275317.png" alt="">
-            <p>Phone Number</p>
+            <p class="grow-0">Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
           <div class="card-body w-full p-10 h-72 bg-[#fddd5f1a] rounded-2xl">
             <img class="w-12 h-12" src="Images/group 1171275318.png" alt="">
-            <p>Phone Number</p>
+            <p class="grow-0">Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
           <div class="card-body w-full p-10 h-72 bg-[#629cf31a] rounded-2xl">
             <img class="w-12 h-12" src="Images/group 1171275321.png" alt="">
-            <p>Phone Number</p>
+            <p class="grow-0">Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
         </div>
@@ -507,7 +507,7 @@
               <div class="label">
                 <span class="label-text w-80">Message</span>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none h-80 text-start"/>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none lg:pb-52 lg:pt-7 text-start"/>
             </label>
           </div>
           <!-- button div -->
@@ -516,7 +516,7 @@
       </div>
       <!-- get in touch last box -->
       <div class="w-full bg-[#13131808] rounded-xl h-36 mt-10" >
-        <img class="" src="Images/social-icon.png" alt="">
+        <img class="m-auto" src="Images/social-icon.png" alt="">
         <h1 class="text-center text-[#131318] font-bold text-base" >Social Media</h1>
       </div>
 
@@ -525,7 +525,7 @@
 
   <footer class="container mx-auto">
     <!-- foooter section -->
-    <footer class="footer p-20 bg-[#131318] text-base-content">
+    <footer class="footer p-20 bg-[#131318] mt-10 text-base-content">
       <aside>
         <h1 class="text-[#FFF] text-2xl">Get In Touch</h1>
         <p class="text-[#ffffff99] ">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in
@@ -539,29 +539,35 @@
           <h3 class="text-[#ffffff99] ">(+62) 123-321-543</h3>
         </div>
       </aside>
-      <nav>
-        <header class="footer-title text-white">Company</header>
-        <a class="link link-hover text-[#ffffff99]">About us</a>
-        <a class="link link-hover text-[#ffffff99]">Leadership</a>
-        <a class="link link-hover text-[#ffffff99]">Careers</a>
-        <a class="link link-hover text-[#ffffff99]">News & Article</a>
-        <a class="link link-hover text-[#ffffff99]">Legal Notice</a>
-      </nav>
-      <nav>
-        <header class="footer-title text-white">Support</header>
-        <a class="link link-hover text-[#ffffff99]">Help Center</a>
-        <a class="link link-hover text-[#ffffff99]">FAQ</a>
-        <a class="link link-hover text-[#ffffff99]">Ticket Support</a>
-        <a class="link link-hover text-[#ffffff99]">Contact Us</a>
-      </nav>
-      <nav>
-        <header class="footer-title text-[#FFF] text-2xl">Services</header>
-        <a class="link link-hover text-[#ffffff99]">Academy</a>
-        <a class="link link-hover text-[#ffffff99]">Group Lesson</a>
-        <a class="link link-hover text-[#ffffff99]">Private Lesson</a>
-        <a class="link link-hover text-[#ffffff99]">Hockeys for kids</a>
-        <a class="link link-hover text-[#ffffff99]">Hockeys for Adult</a>
-      </nav>
+      <div class="grid grid-cols-2 lg:grid-cols-3 justify-center items-center">
+        <nav class="lg:ml-40">
+          <header class="footer-title text-white">Company</header>
+          <a class="link link-hover text-[#ffffff99]">About us</a>
+          <a class="link link-hover text-[#ffffff99]">Leadership</a>
+          <a class="link link-hover text-[#ffffff99]">Careers</a>
+          <a class="link link-hover text-[#ffffff99]">News & Article</a>
+          <a class="link link-hover text-[#ffffff99]">Legal Notice</a>
+        </nav>
+        <nav class="ml-4 lg:ml-40">
+          <header class="footer-title text-white">Support</header>
+          <div class="flex flex-col">
+            <a class="link link-hover text-[#ffffff99]">Help Center</a>
+          <a class="link link-hover text-[#ffffff99]">FAQ</a>
+          <a class="link link-hover text-[#ffffff99]">Ticket Support</a>
+          <a class="link link-hover text-[#ffffff99]">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+      <div class="m-auto">
+        <nav class="lg:-ml-32 flex flex-col">
+          <header class="footer-title text-[#FFF] text-2xl">Services</header>
+          <a class="link link-hover text-[#ffffff99]">Academy</a>
+          <a class="link link-hover text-[#ffffff99]">Group Lesson</a>
+          <a class="link link-hover text-[#ffffff99]">Private Lesson</a>
+          <a class="link link-hover text-[#ffffff99]">Hockeys for kids</a>
+          <a class="link link-hover text-[#ffffff99]">Hockeys for Adult</a>
+        </nav>
+      </div>
     </footer>
   </footer>
 
