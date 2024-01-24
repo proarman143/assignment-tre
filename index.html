@@ -38,11 +38,11 @@
             <li><a>Item 3</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-2xl text-[#131318]">Hockey<span style="color: red;">’</span>s</a>
+        <a class="btn btn-ghost text-2xl text-[#131318]">Hockey<span style="color:red;">’</span>s</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-l text-[#424247] text-xs">
-          <li><a>Home</a></li>
+          <li><a><span style="color:#FF4240;" >Home</span></a></li>
           <li><a>About</a></li>
           <li><a>Pages</a></li>
           <li><a>Blog</a></li>
@@ -381,10 +381,10 @@
 
       <!-- FAQ & images SECTION -->
       <div class="flex gap-10 lg:flex-row flex-col p-8" >
-          <div class="w-2/5" >
+          <div class="w-2/4" >
             <img class="w-full" src="Images/11.png" alt="">
           </div>
-          <div class="w-3/5" >
+          <div class="w-2/4" >
             
             <div class="collapse collapse-plus ">
               <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -448,71 +448,77 @@
 
     <!-- Get In Touch -->
     <section class="container mx-auto">
-      <div class="items-center justify-center">
-        <h1>Get In Touch</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna
+      <div class="">
+        <h1 class="font-bold text-3xl text-center pt-24" >Get In Touch</h1>
+        <p class="text-center text-xs mb-6 pt-6" >Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna
           in sit nullam proin.</p>
       </div>
       <!-- card and input section -->
-      <div class="flex gap-10">
-        <div class="card w-96 bg-base-100 shadow-xl gap-y-1.5 justify-center items-center">
-          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
-            <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
+      <div class="flex gap-10 lg:flex-row flex-col">
+        <div class="card gap-y-1.5 justify-center items-center w-2/4">
+          <div class="card-body w-full p-10 h-72 bg-[#bced6d1a] rounded-2xl">
+            <img class=" w-12 h-12" src="Images/Group 1171275317.png" alt="">
             <p>Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
-          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
+          <div class="card-body w-full p-10 h-72 bg-[#fddd5f1a] rounded-2xl">
             <img class="w-12 h-12" src="Images/group 1171275318.png" alt="">
             <p>Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
-          <div class="card-body w-80 h-72 bg-red-100 rounded-2xl">
+          <div class="card-body w-full p-10 h-72 bg-[#629cf31a] rounded-2xl">
             <img class="w-12 h-12" src="Images/group 1171275321.png" alt="">
             <p>Phone Number</p>
             <h2 class="card-title">Card title!</h2>
           </div>
         </div>
         <!-- input tag title -->
-        <div>
-          <div class="flex gap-4">
+        <div class="w-2/4" >
+          <div class="flex gap-4 lg:flex-row flex-col">
             <label class="form-control w-full max-w-xs">
               <div class="label">
                 <span class="label-text">Your Name</span>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Type here" class="input bg-[#13131808] border-none input-bordered w-full max-w-xs" />
             </label>
             <label class="form-control w-full max-w-xs">
               <div class="label">
                 <span class="label-text">Your Email</span>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none max-w-xs" />
             </label>
           </div>
-          <div class="flex gap-4">
+          <div class="flex gap-4 lg:flex-row flex-col">
             <label class="form-control w-full max-w-xs">
               <div class="label">
                 <span class="label-text">Subject</span>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none max-w-xs" />
             </label>
             <label class="form-control w-full max-w-xs">
               <div class="label">
                 <span class="label-text">Phone Numberspan>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none max-w-xs" />
             </label>
           </div>
-          <div>
-            <label class="form-control w-full max-w-xs">
+          <div class="" >
+            <label class="form-control w-full ">
               <div class="label">
-                <span class="label-text w-48">Message</span>
+                <span class="label-text w-80">Message</span>
               </div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <input type="text" placeholder="Type here" class="input input-bordered w-full bg-[#13131808] border-none h-80 text-start"/>
             </label>
           </div>
+          <!-- button div -->
+          <button class="btn btn-active btn-secondary bg-[#FF4240] border-none w-full mt-10" >Send Message</button>
         </div>
       </div>
-
+      <!-- get in touch last box -->
+      <div class="w-full bg-[#13131808] rounded-xl h-36 mt-10" >
+        <img class="" src="Images/social-icon.png" alt="">
+        <h1 class="text-center text-[#131318] font-bold text-base" >Social Media</h1>
+      </div>
 
     </section>
   </main>
